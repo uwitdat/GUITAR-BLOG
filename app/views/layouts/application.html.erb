@@ -20,8 +20,13 @@
 
   <body class="d-flex flex-column">
     <%= render partial: 'layouts/navbar' %>
+    <div id="page-content">
+      <%= render partial: 'layouts/messages' %>
     
-
-    <%= yield %>
+      <div class="bg-white" id="page-content">
+      <%= yield %>
+      <%= render partial: 'layouts/footer' %>
+    </div>
+  </div>
   </body>
 </html>
