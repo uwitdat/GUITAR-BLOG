@@ -7,7 +7,7 @@
 #logo {
     float: left;
     font-size: 1.7em;
-    color: #fff;
+    color: rgb(207, 89, 89);
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
@@ -22,13 +22,33 @@
     background-position: center center;
     background-repeat: no repeat;
     background-size: cover;
-    height: 500px;
+    height: 1000px;
+}
+
+
+@font-face {
+  font-family: "Vampire Wars Italic";
+  src: url('/assets/Vampire Wars Italic');
 }
 
 html,
+
 body {
   height: 100%;
+
 }
+
+
+h1, .navbar-brand {
+  font-family: "Vampire Wars Italic", "Arial Black", sans-serif;
+  color:rgb(201, 61, 61)
+  
+}
+
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 
 #page-content {
   flex: 1 0 auto;
@@ -71,3 +91,5 @@ body {
     margin-right: 1em; }
   .flickr_pagination .next_page {
     margin-left: 1em; }
+
+ 
